@@ -23,7 +23,7 @@ class Artist:
 
         :param artist_name: (str) the name of the artist
         :param artist_songs: (List[str]) the list of songs for the artist
-        :return: the dictionary mapping songs to number of words
+        :return: (dict) the dictionary mapping songs to number of words
         """
 
         print('Finding lyrics for {} {} songs...'.format(len(artist_songs), artist_name))
